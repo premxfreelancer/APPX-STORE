@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+   
+    width: 100%;
+    height: 20vh;
+
+}
+
+.main {
+ overflow: scroll;
+ scrollbar-width: none;
+ -ms-overflow-style: none; 
+    width: 100%;
+    height: 65vh;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+  }
+.bottom {
+    
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    background-color: rgb(236, 241, 244);
+    color: rgb(39, 154, 225);
+}
+
+.header1 {
+  
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header1 div {
+    border: none;
+    width: 85%;
+    cursor: text;
+    height: 60%;
+    border-radius: 10vw;
+    background-color: rgb(220, 225, 227);
+    display: flex;
+    align-items: center;
+    color: rgb(74, 72, 69);
+    font-size: 3vh;
+}
+.header1 div img {
+  height: 70%;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+
+
+
+.header2 {
+   
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.appssec {
+   
+    width: 50%;
+    height: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamessec {
+   
+    width: 50%;
+    height: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(26, 141, 230);
+    border: none;
+    border-radius: 1vw;
+    color: white;
+    cursor: pointer;
+}
+.buttons:hover {
+  
+    background-color: rgb(44, 83, 113);
+ 
+ 
+}
+
+.appbox {
+   padding-bottom: 3vh;
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.appbox:hover {
+    background-color: rgb(225, 234, 225);
+}
+
+.imageofbox {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 30%;
+    height: 100%;
+   
+}
+.imageofbox img {
+   border-radius: 2vh;
+    width: auto;
+    height: 90%;
+}
+
+
+
+
+.otherofbox {
+
+    width: 70%;
+    height: 100%;
+}
+.nameofbox {
+  
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sizeofbox {
+
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ratingofbox {
+ 
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
