@@ -163,3 +163,96 @@
     justify-content: center;
 }
 
+.moreappsec {
+    width: 100%;
+    height: 65vh;
+    
+    position: fixed;
+    top: 20vh;
+    background-color: white;
+
+}
+
+.biglogocon {
+   openfreefire
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.biglogocon img {
+  
+    height: 90%;
+    display: flex;
+    border-radius: 2vh;
+    justify-content: center;
+    align-items: center;  
+}
+
+.otherofmore {
+    width: 100%;
+    height: 60%;
+}
+
+.bigname, .bigrate, .bigsize, .install {
+   
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigback {
+    width: 100%;
+    height: 10%;
+    display: flex;
+   
+    align-items: center;
+}
+
+.bigback button {
+   background: rgb(251, 59, 59);
+   border: none;
+   width: 15vh;
+   height: 80%;
+   margin-left: 1vw;
+   color: rgb(255, 255, 255);
+   border-radius: 1vh;
+
+
+
+
+}
+.bigback button:hover {
+    background: rgb(134, 52, 52);
+}
+
+
+
+
+
+.install button {
+    background: rgb(29, 220, 29);
+    border: none;
+    height: 5vh;
+    width: 90%;
+    border-radius: 1vh;
+}
+.install button:hover {
+    background: rgb(156, 190, 156);
+  
+}
+
+
+.install {
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+    
+}
+
+
