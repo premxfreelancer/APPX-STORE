@@ -4,13 +4,14 @@
 }
 
 .header {
-   
+  
     width: 100%;
     height: 20vh;
 
 }
 
 .main {
+   
  overflow: scroll;
  scrollbar-width: none;
  -ms-overflow-style: none; 
@@ -26,7 +27,7 @@ html::-webkit-scrollbar {
     display: none;
   }
 .bottom {
-    
+   
     width: 100%;
     height: 15vh;
     display: flex;
@@ -48,6 +49,7 @@ html::-webkit-scrollbar {
 }
 
 .header1 div {
+   
     border: none;
     width: 85%;
     cursor: text;
@@ -69,14 +71,14 @@ html::-webkit-scrollbar {
 
 
 .header2 {
-   
+  
     width: 100%;
     height: 50%;
     display: flex;
 }
 
 .appssec {
-   
+  
     width: 50%;
     height: 100%;  
     display: flex;
@@ -85,7 +87,7 @@ html::-webkit-scrollbar {
 }
 
 .gamessec {
-   
+  
     width: 50%;
     height: 100%;  
     display: flex;
@@ -94,6 +96,7 @@ html::-webkit-scrollbar {
 }
 
 .buttons {
+   
     width: 80%;
     height: 80%;
     background-color: rgb(26, 141, 230);
@@ -114,10 +117,13 @@ html::-webkit-scrollbar {
     width: 100%;
     height: 20%;
     display: flex;
+   
+ 
 }
 
 .appbox:hover {
     background-color: rgb(225, 234, 225);
+
 }
 
 .imageofbox {
@@ -126,19 +132,20 @@ html::-webkit-scrollbar {
    justify-content: center;
     width: 30%;
     height: 100%;
-   
+
 }
 .imageofbox img {
    border-radius: 2vh;
     width: auto;
-    height: 90%;
+    height: 80%;
+  
 }
 
 
 
 
 .otherofbox {
-
+  
     width: 70%;
     height: 100%;
 }
