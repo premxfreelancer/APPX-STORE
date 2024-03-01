@@ -15,10 +15,14 @@
  scrollbar-width: none;
  -ms-overflow-style: none; 
     width: 100%;
-    height: 65vh;
+    height: 80vh;
 }
 
+
 .main::-webkit-scrollbar {
+    display: none;
+  }
+html::-webkit-scrollbar {
     display: none;
   }
 .bottom {
